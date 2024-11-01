@@ -1,0 +1,77 @@
+div#calculator{
+    height:90%;
+    width:25%;
+    margin-left:37.5%;
+    margin-top: 2%;
+    margin-bottom:3%;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column  ;
+    border:5px;
+    border-color: black;
+    border-style: solid;
+}
+div#screen{
+    width:94%;
+    padding-left:3%;
+    padding-right:3%;
+    height:15%;
+    margin-bottom:2%;
+    background-color:rgb(173, 173, 173);
+    text-align: center;
+    align-content: center;
+}
+div#buttons{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:3%;
+    height:100%
+}
+#buttons {cursor : pointer;}
+div#numsection{ 
+    display:flex;
+    flex-wrap: wrap;
+    background-color:rgb(35, 35, 35);
+    width:75%;
+    height:75%;
+}
+div.number{
+    display: flex;
+    flex-wrap: wrap;
+    margin:1%;
+    width: 31%;
+    height:auto;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+div#zero{
+    margin-left:34.5%;
+}
+div#opsection{
+    width:25%;
+    height:75%;
+    background-color:rgb(35, 35, 35);
+}
+div.operator{
+    display:flex;
+    flex-direction: column;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    margin-top:2%;
+    margin-bottom:2%;
+    width:70%;
+    height:15%;
+    align-items:center;
+    justify-content: center;
+    background-color: yellow;
+    color:black;
+    font-size: 1rem;
+}
+div#equals{
+    background-color: gray
+}
+div#clear{
+    background-color: gray
+}
